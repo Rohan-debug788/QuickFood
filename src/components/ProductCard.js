@@ -12,7 +12,7 @@ function ProductCard({ product, onAddToCart }) {
         <p>{description}</p>
         <div className="product-rating">
           {[...Array(5)].map((_, index) => (
-            <span key={index} className={index < rating ? 'starfilled' : 'star'}>
+            <span key={index} className={index < rating ? 'star filled' : 'star'}>
               ★
             </span>
           ))}
