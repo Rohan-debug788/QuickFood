@@ -8,7 +8,7 @@
   }
   
   .product-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
   }
   
   .product-image {
